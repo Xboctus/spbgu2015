@@ -6,7 +6,7 @@
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>DemoServlet</servlet-name>
-        <servlet-class>com.exigenservices.lectures.servlet.DemoServlet</servlet-class>
+        <servlet-class>com.exigenservlets.lectures.servlet.DemoServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>DemoServlet</servlet-name>
