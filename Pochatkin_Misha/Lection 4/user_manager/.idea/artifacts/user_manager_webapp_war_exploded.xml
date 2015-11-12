@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="user-manager-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/user-manager-webapp/target/user-manager-webapp</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="user-manager-webapp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.ejb:javax.ejb-api:3.2" />
+          <element id="library" level="project" name="Maven: javax.transaction:javax.transaction-api:1.2" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="archive" name="user-manager-ejb-api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="user-manager-ejb-api" />
+          </element>
+          <element id="archive" name="user-manager-model-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="user-manager-model" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:\project\lectures\ejb-demo\user_manager\user-manager-webapp\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="user-manager-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>

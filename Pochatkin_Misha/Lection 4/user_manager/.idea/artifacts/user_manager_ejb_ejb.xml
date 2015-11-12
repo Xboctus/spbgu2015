@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="user-manager-ejb:ejb">
+    <output-path>$PROJECT_DIR$/user-manager-ejb/target</output-path>
+    <root id="archive" name="user-manager-ejb-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="user-manager-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>
