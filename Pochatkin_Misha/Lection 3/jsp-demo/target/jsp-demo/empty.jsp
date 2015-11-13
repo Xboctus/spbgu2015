@@ -13,7 +13,7 @@
     </div>
 
     <div>
-        <form action="" method="POST">
+        <form action="url.jsp" method="POST">
             <p>Name: <input type="text" name="name"></p>
             <p>URL:  <input type="text" name="url"></p>
             <p><input type="submit" name="add" value="add"></p>
