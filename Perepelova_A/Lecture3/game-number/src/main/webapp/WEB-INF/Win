@@ -1,7 +1,0 @@
-<html>
-<body>
-<h2> You win!!! =)(</h2>
-<p>The number was ${cur_number}</p>
-<a href="<c:url value='/index.jsp'/>" >Try again!</a>
-</body>
-</html>
