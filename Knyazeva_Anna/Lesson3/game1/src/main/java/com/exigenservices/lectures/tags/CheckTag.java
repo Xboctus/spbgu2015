@@ -7,10 +7,13 @@ import java.util.Random;
  */
 public class CheckTag {
     public static boolean Check (String value) {
-        try {
-            return (Math.abs (new Random().nextInt()) % 100 + 1) == Integer.valueOf(value);
-        } catch (Throwable t){
-            return false;
-        }
+           try {
+               if ((Math.abs(new Random().nextInt()) % 100 + 1) == Integer.valueOf(value))
+                   return true;
+               else
+                   return false;
+           }catch (Exception e){
+               return false;
+           }
     }
 }
