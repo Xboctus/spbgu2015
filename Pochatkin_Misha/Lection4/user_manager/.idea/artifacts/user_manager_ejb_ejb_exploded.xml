@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="user-manager-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/user-manager-ejb/target/user-manager-ejb-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="user-manager-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:\project\lectures\ejb-demo\user_manager\user-manager-ejb\target/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="user-manager-ejb" />
+    </root>
+  </artifact>
+</component>
